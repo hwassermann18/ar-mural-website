@@ -7,6 +7,8 @@ nav:
       - Introduction: intro.md
       - Controls: controls.md
       - Tool Scripts: tool_scripts.md
+      - Manager Scripts: managers.md
+      - Server: server.md
 theme: 
   name: material
   icon: 

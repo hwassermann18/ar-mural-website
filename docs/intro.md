@@ -1,5 +1,5 @@
 
-Another goal of the 2026 AR Mural team was to improve documentation. AR Mural is one of the longest running WINLAB summer projects, so creating accurate and concise documentation would make the onboarding process much easier. Trying to learn how all the files work themselves and together can be overwhelming at first, especially if you have limited unity experience. We will introduce you to the different file types in the project and how they fit together to create AR Mural. 
+Another goal of the 2026 AR Mural team was to improve documentation. AR Mural is one of the longest running WINLAB summer projects, so creating accurate and concise documentation would make the onboarding process much easier. Trying to learn how all the files work themselves and together can be overwhelming at first, especially if you have limited unity experience. We will introduce you to the different file types in the project and how they fit together to create AR Mural. We strongly encourage incoming groups to continue adding to the documentation of this project.
 ## General Project Folder Structure
 In the ar-mural-summer-2025 project folder you'll see many different folders. Lets break them down:
 

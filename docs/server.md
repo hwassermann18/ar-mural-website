@@ -1,0 +1,1 @@
+A MQTT broker (server) is used to store drawing data and enable multiplayer. This server recieves data from the client (a connected Hololens or Unity simulation) and writes it into the database. It then sends the data
