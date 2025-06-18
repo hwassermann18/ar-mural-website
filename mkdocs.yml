@@ -1,0 +1,52 @@
+site_name: WINLAB AR Mural
+site_url: https://ar_mural.com
+repo_url: https://gitlab.orbit-lab.org/amithi04/ar-mural-summer-2025.git
+nav:
+  - Home: index.md
+  - Documentation: 
+      - Introduction: intro.md
+      - Controls: controls.md
+      - Tool Scripts: tool_scripts.md
+theme: 
+  name: material
+  icon: 
+    logo: fontawesome/solid/paintbrush
+  font:
+    text: Lato
+    code: Red Hat Mono
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: red
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+  features:
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.top
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - md_in_html
+  - pymdownx.blocks.caption
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
