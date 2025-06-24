@@ -1,5 +1,4 @@
 site_name: WINLAB AR Mural
-site_url: https://ar_mural.com
 repo_url: https://gitlab.orbit-lab.org/amithi04/ar-mural-summer-2025.git
 nav:
   - Home: home.md
