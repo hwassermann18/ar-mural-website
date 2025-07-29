@@ -9,3 +9,4 @@ To locally view the website:
 
 We deploy our website with Cloudflare pages. If future groups want to continue adding documentation I recommend either forking this repo and deploying it on Cloudflare pages as well, since requirements.txt file is already configured to work with the system.
 
+Here is a good video to get started on hosting an MKDocs website on Cloudflare: https://www.youtube.com/watch?v=7-HhLascLuM&t=890s
