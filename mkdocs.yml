@@ -8,6 +8,7 @@ nav:
       - Tool Scripts: tool_scripts.md
       - Manager Scripts: managers.md
       - Server: server.md
+      - QR Code Initialization: qr_codes.md
 theme: 
   name: material
   icon: 
