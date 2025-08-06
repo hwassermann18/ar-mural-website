@@ -318,6 +318,18 @@ ImageTool fetches 2D images from Unsplash using their API and lets users place t
 
 ---
 
+
+### **Undo/Redo Tool**
+Fully functional and tested for brushtrokes. Limited testing and implementation for shapes and text (when connected to server, though functional locally), and nonfunctional for object tool.
+
+**Implementation notes:**
+- Uses two stacks (undoStack and redoStack) to track actions (creation/deletion) in LIFO order.
+- For server connection: Maintains a dictionary `objectStates` to avoid duplicate entries and track object states (created/deleted).
+- Creates backup clones of erased objects for restoration during undo/redo operations.
+- Syncs undo/redo actions with the server (e.g., sending ADD/DELETE commands via MQTT).
+
+---
+
 ### **Object Tool**
 ObjectTool lets users choose from a predefined list of 3D prefabs and place them into the AR scene.
 
