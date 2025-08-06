@@ -9,6 +9,7 @@ nav:
       - Manager Scripts: managers.md
       - Server: server.md
       - QR Code Initialization: qr_codes.md
+      - Multiple Murals: multiple_murals.md
 theme: 
   name: material
   icon: 
